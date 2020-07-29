@@ -1,0 +1,8 @@
+test floder contains testing file..........
+command to run all testing files- python3 manage.py test --keepdb
+--keepdb will not change anythin in the DB
+
+add the following lines of code in the settings.py in DATABASES section-
+'TEST': {
+            'NAME': 'DB name'
+        }
